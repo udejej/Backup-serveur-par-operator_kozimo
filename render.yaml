@@ -5,7 +5,7 @@ services:
     buildCommand: pip install -r requirements_bot.txt
     startCommand: python bot_clone.py
     envVars:
-      - key: MTQwMTYwNDc0MTcyODk2MDU3Mw.GiupUv.YAywnFmALf18cU0XbsZ6oQryiYH6NHRkVJZmmI
+      - key: DISCORD_BOT_TOKEN
         sync: false
     scaling:
       minInstances: 1
